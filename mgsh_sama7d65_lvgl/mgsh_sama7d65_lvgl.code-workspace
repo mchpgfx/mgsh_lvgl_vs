@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../lvgl/demos"
+		},
+		{
+			"path": "../lvgl/src"
+		}
+	],
+	"settings": {
+		"mplab.clangd.compileCommandsDir": "${workspaceFolder}\\_build\\mgsh_sama7d65_lvgl\\default",
+		"mplab.clangd.path": "c:\\Program Files\\Microchip\\xc32\\v4.60\\bin\\xc32-clangd.exe",
+		"memory-inspector.debugTypes": [
+			"arm-debugger",
+			"embedded-debug",
+			"gdb",
+			"mplab-core-da"
+		],
+		"mplab.ioview.columnWidths": {
+			"mgsh_sama7d65_lvgl-default": [
+				100,
+				100,
+				100,
+				100,
+				100,
+				660
+			]
+		},
+		"mplab.ioview.taggedNodes": {
+			"mgsh_sama7d65_lvgl-default": []
+		},
+		"mplab.coreDebugger.callstack.showLine": true
+	}
+}
