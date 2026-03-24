@@ -1,0 +1,19 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Note: Properties here can override MPLAB project settings
+      "name": "Launch mgsh_pic32ck_sg_gc_lvgl: default",
+      "type": "mplab-core-da",
+      "request": "launch",
+      "project": "mgsh_pic32ck_sg_gc_lvgl",
+      "configuration": "default",
+      "stopOnEntry": false,
+      "preLaunchTask": "mgsh_pic32ck_sg_gc_lvgl: default - Build",
+      "program": "${workspaceFolder}/out/mgsh_pic32ck_sg_gc_lvgl/default.elf"
+    }
+  ]
+}
