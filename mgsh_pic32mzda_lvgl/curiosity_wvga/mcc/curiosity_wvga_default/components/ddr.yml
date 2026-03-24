@@ -1,0 +1,171 @@
+configVersion: 1.0.0
+componentName: ddr
+coreVersion: 5.8.4
+device: PIC32MZ2064DAR176
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: ddr
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.25.1
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: ddr
+          x: '30'
+          y: '460'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    DDR_MINLIM_TGT0:
+      attributes:
+        id: DDR_MINLIM_TGT0
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: Hex
+    DDR_REQPER_TGT0:
+      attributes:
+        id: DDR_REQPER_TGT0
+      children:
+      - children:
+        - attributes:
+            value: '254'
+          type: User
+        type: Values
+      type: Hex
+    DDR_MINCMD_TGT0:
+      attributes:
+        id: DDR_MINCMD_TGT0
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: Hex
+    DDR_MINLIM_TGT1:
+      attributes:
+        id: DDR_MINLIM_TGT1
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: Hex
+    DDR_REQPER_TGT1:
+      attributes:
+        id: DDR_REQPER_TGT1
+      children:
+      - children:
+        - attributes:
+            value: '254'
+          type: User
+        type: Values
+      type: Hex
+    DDR_MINCMD_TGT1:
+      attributes:
+        id: DDR_MINCMD_TGT1
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: Hex
+    DDR_MINLIM_TGT2:
+      attributes:
+        id: DDR_MINLIM_TGT2
+      children:
+      - children:
+        - attributes:
+            value: '30'
+          type: User
+        type: Values
+      type: Hex
+    DDR_REQPER_TGT2:
+      attributes:
+        id: DDR_REQPER_TGT2
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: Hex
+    DDR_MINCMD_TGT2:
+      attributes:
+        id: DDR_MINCMD_TGT2
+      children:
+      - children:
+        - attributes:
+            value: '254'
+          type: User
+        type: Values
+      type: Hex
+    DDR_MINLIM_TGT3:
+      attributes:
+        id: DDR_MINLIM_TGT3
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: Hex
+    DDR_REQPER_TGT3:
+      attributes:
+        id: DDR_REQPER_TGT3
+      children:
+      - children:
+        - attributes:
+            value: '254'
+          type: User
+        type: Values
+      type: Hex
+    DDR_MINCMD_TGT3:
+      attributes:
+        id: DDR_MINCMD_TGT3
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: Hex
+    DDR_REQPER_TGT4:
+      attributes:
+        id: DDR_REQPER_TGT4
+      children:
+      - children:
+        - attributes:
+            value: '254'
+          type: User
+        type: Values
+      type: Hex
+    DDR_MINCMD_TGT4:
+      attributes:
+        id: DDR_MINCMD_TGT4
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: Hex
+  userData: {}

@@ -1,0 +1,2185 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.4
+device: PIC32MZ2064DAR176
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.25.1
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '240'
+          y: '20'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    BSP_PIN_100_MODE:
+      attributes:
+        id: BSP_PIN_100_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_101_MODE:
+      attributes:
+        id: BSP_PIN_101_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_104_MODE:
+      attributes:
+        id: BSP_PIN_104_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_105_MODE:
+      attributes:
+        id: BSP_PIN_105_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_106_DIR:
+      attributes:
+        id: BSP_PIN_106_DIR
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: Out
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_106_FUNCTION_NAME:
+      attributes:
+        id: BSP_PIN_106_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GLCD_DISP
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_106_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_106_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GPIO
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_106_LAT:
+      attributes:
+        id: BSP_PIN_106_LAT
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: High
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_106_MODE:
+      attributes:
+        id: BSP_PIN_106_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_107_MODE:
+      attributes:
+        id: BSP_PIN_107_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_108_MODE:
+      attributes:
+        id: BSP_PIN_108_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_109_MODE:
+      attributes:
+        id: BSP_PIN_109_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_110_MODE:
+      attributes:
+        id: BSP_PIN_110_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_111_MODE:
+      attributes:
+        id: BSP_PIN_111_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_112_MODE:
+      attributes:
+        id: BSP_PIN_112_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_113_MODE:
+      attributes:
+        id: BSP_PIN_113_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_114_MODE:
+      attributes:
+        id: BSP_PIN_114_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_118_MODE:
+      attributes:
+        id: BSP_PIN_118_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_119_MODE:
+      attributes:
+        id: BSP_PIN_119_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_11_DIR:
+      attributes:
+        id: BSP_PIN_11_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_11_LAT:
+      attributes:
+        id: BSP_PIN_11_LAT
+      children:
+      - children:
+        - attributes:
+            value: High
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_11_OD:
+      attributes:
+        id: BSP_PIN_11_OD
+      children:
+      - children:
+        - attributes:
+            value: 'True'
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_120_MODE:
+      attributes:
+        id: BSP_PIN_120_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_121_MODE:
+      attributes:
+        id: BSP_PIN_121_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_125_MODE:
+      attributes:
+        id: BSP_PIN_125_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_126_MODE:
+      attributes:
+        id: BSP_PIN_126_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_127_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_127_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD1
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_127_MODE:
+      attributes:
+        id: BSP_PIN_127_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_128_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_128_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: SDA2
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_128_MODE:
+      attributes:
+        id: BSP_PIN_128_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_129_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_129_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: SCL2
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_129_MODE:
+      attributes:
+        id: BSP_PIN_129_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_130_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_130_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD19
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_130_MODE:
+      attributes:
+        id: BSP_PIN_130_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_131_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_131_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD15
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_131_MODE:
+      attributes:
+        id: BSP_PIN_131_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_132_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_132_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD14
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_132_MODE:
+      attributes:
+        id: BSP_PIN_132_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_133_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_133_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD13
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_133_MODE:
+      attributes:
+        id: BSP_PIN_133_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_134_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_134_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD12
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_134_MODE:
+      attributes:
+        id: BSP_PIN_134_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_137_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_137_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD23
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_137_MODE:
+      attributes:
+        id: BSP_PIN_137_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_13_MODE:
+      attributes:
+        id: BSP_PIN_13_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_141_MODE:
+      attributes:
+        id: BSP_PIN_141_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_142_MODE:
+      attributes:
+        id: BSP_PIN_142_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_143_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_143_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD8
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_143_MODE:
+      attributes:
+        id: BSP_PIN_143_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_144_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_144_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD0
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_144_MODE:
+      attributes:
+        id: BSP_PIN_144_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_145_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_145_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD9
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_145_MODE:
+      attributes:
+        id: BSP_PIN_145_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_146_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_146_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD18
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_146_MODE:
+      attributes:
+        id: BSP_PIN_146_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_147_MODE:
+      attributes:
+        id: BSP_PIN_147_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_148_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_148_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GCLK
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_148_MODE:
+      attributes:
+        id: BSP_PIN_148_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_149_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_149_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: HSYNC
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_149_MODE:
+      attributes:
+        id: BSP_PIN_149_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_150_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_150_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: VSYNC
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_150_MODE:
+      attributes:
+        id: BSP_PIN_150_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_151_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_151_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD20
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_151_MODE:
+      attributes:
+        id: BSP_PIN_151_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_16_DIR:
+      attributes:
+        id: BSP_PIN_16_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_16_LAT:
+      attributes:
+        id: BSP_PIN_16_LAT
+      children:
+      - children:
+        - attributes:
+            value: High
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_16_OD:
+      attributes:
+        id: BSP_PIN_16_OD
+      children:
+      - children:
+        - attributes:
+            value: 'True'
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_17_DIR:
+      attributes:
+        id: BSP_PIN_17_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_17_LAT:
+      attributes:
+        id: BSP_PIN_17_LAT
+      children:
+      - children:
+        - attributes:
+            value: High
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_17_OD:
+      attributes:
+        id: BSP_PIN_17_OD
+      children:
+      - children:
+        - attributes:
+            value: 'True'
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_40_MODE:
+      attributes:
+        id: BSP_PIN_40_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_41_MODE:
+      attributes:
+        id: BSP_PIN_41_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_42_DIR:
+      attributes:
+        id: BSP_PIN_42_DIR
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: In
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_42_FUNCTION_NAME:
+      attributes:
+        id: BSP_PIN_42_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: BSP_MAXTOUCH_CHG
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_42_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_42_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GPIO
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_42_LAT:
+      attributes:
+        id: BSP_PIN_42_LAT
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_42_MODE:
+      attributes:
+        id: BSP_PIN_42_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_53_MODE:
+      attributes:
+        id: BSP_PIN_53_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_54_MODE:
+      attributes:
+        id: BSP_PIN_54_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_55_MODE:
+      attributes:
+        id: BSP_PIN_55_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_56_MODE:
+      attributes:
+        id: BSP_PIN_56_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_64_MODE:
+      attributes:
+        id: BSP_PIN_64_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_65_MODE:
+      attributes:
+        id: BSP_PIN_65_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_69_MODE:
+      attributes:
+        id: BSP_PIN_69_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_70_MODE:
+      attributes:
+        id: BSP_PIN_70_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_71_MODE:
+      attributes:
+        id: BSP_PIN_71_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_73_MODE:
+      attributes:
+        id: BSP_PIN_73_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_74_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_74_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD10
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_74_MODE:
+      attributes:
+        id: BSP_PIN_74_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_75_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_75_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD11
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_75_MODE:
+      attributes:
+        id: BSP_PIN_75_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_76_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_76_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD2
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_76_MODE:
+      attributes:
+        id: BSP_PIN_76_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_77_MODE:
+      attributes:
+        id: BSP_PIN_77_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_79_DIR:
+      attributes:
+        id: BSP_PIN_79_DIR
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: Out
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_79_FUNCTION_NAME:
+      attributes:
+        id: BSP_PIN_79_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: TM4301B_BACKLIGHT
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_79_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_79_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GPIO
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_79_LAT:
+      attributes:
+        id: BSP_PIN_79_LAT
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: High
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_79_MODE:
+      attributes:
+        id: BSP_PIN_79_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_80_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_80_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD7
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_80_MODE:
+      attributes:
+        id: BSP_PIN_80_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_81_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_81_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD22
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_81_MODE:
+      attributes:
+        id: BSP_PIN_81_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_82_MODE:
+      attributes:
+        id: BSP_PIN_82_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_89_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_89_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD16
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_89_MODE:
+      attributes:
+        id: BSP_PIN_89_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_90_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_90_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD5
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_90_MODE:
+      attributes:
+        id: BSP_PIN_90_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_91_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_91_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD6
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_91_MODE:
+      attributes:
+        id: BSP_PIN_91_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_92_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_92_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD21
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_92_MODE:
+      attributes:
+        id: BSP_PIN_92_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_93_MODE:
+      attributes:
+        id: BSP_PIN_93_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_95_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_95_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD4
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_95_MODE:
+      attributes:
+        id: BSP_PIN_95_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_96_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_96_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD3
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_96_MODE:
+      attributes:
+        id: BSP_PIN_96_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_97_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_97_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm5000
+            value: GD17
+          type: Dynamic
+        type: Values
+      type: String
+    BSP_PIN_97_MODE:
+      attributes:
+        id: BSP_PIN_97_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_98_MODE:
+      attributes:
+        id: BSP_PIN_98_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_99_MODE:
+      attributes:
+        id: BSP_PIN_99_MODE
+      children:
+      - children:
+        - attributes:
+            value: DIGITAL
+          type: User
+        type: Values
+      type: String
+    COMPILER_CHOICE:
+      attributes:
+        id: COMPILER_CHOICE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    CONFIG_SYS_CLK_REFCLK5_ENABLE:
+      attributes:
+        id: CONFIG_SYS_CLK_REFCLK5_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_glcd
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    CONFIG_SYS_CLK_REFCLK5_FREQ:
+      attributes:
+        id: CONFIG_SYS_CLK_REFCLK5_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '200000000'
+          type: Dynamic
+        type: Values
+      type: String
+    CORE_TIMER_INTERRUPT_ENABLE:
+      attributes:
+        id: CORE_TIMER_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core_timer
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    CORE_TIMER_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: CORE_TIMER_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    CORE_TIMER_INTERRUPT_HANDLER:
+      attributes:
+        id: CORE_TIMER_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core_timer
+            value: CORE_TIMER_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    CORE_TIMER_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: CORE_TIMER_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core_timer
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    DDR_CLOCK_ENABLE:
+      attributes:
+        id: DDR_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: ddr
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    DDR_CLOCK_FREQUENCY:
+      attributes:
+        id: DDR_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '200000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EVIC_0_ENABLE:
+      attributes:
+        id: EVIC_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_0_HANDLER_LOCK:
+      attributes:
+        id: EVIC_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_0_INTERRUPT_HANDLER:
+      attributes:
+        id: EVIC_0_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: CORE_TIMER_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    EVIC_148_ENABLE:
+      attributes:
+        id: EVIC_148_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_148_HANDLER_LOCK:
+      attributes:
+        id: EVIC_148_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_148_INTERRUPT_HANDLER:
+      attributes:
+        id: EVIC_148_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: I2C2_BUS_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    EVIC_149_ENABLE:
+      attributes:
+        id: EVIC_149_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_149_HANDLER_LOCK:
+      attributes:
+        id: EVIC_149_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_149_INTERRUPT_HANDLER:
+      attributes:
+        id: EVIC_149_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: I2C2_SLAVE_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    EVIC_150_ENABLE:
+      attributes:
+        id: EVIC_150_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_150_HANDLER_LOCK:
+      attributes:
+        id: EVIC_150_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_150_INTERRUPT_HANDLER:
+      attributes:
+        id: EVIC_150_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: I2C2_MASTER_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    EVIC_192_ENABLE:
+      attributes:
+        id: EVIC_192_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_192_HANDLER_LOCK:
+      attributes:
+        id: EVIC_192_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_192_INTERRUPT_HANDLER:
+      attributes:
+        id: EVIC_192_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: GLCD_Interrupt_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    EVIC_1_ENABLE_GENERATE:
+      attributes:
+        id: EVIC_1_ENABLE_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_ENABLE_LOCK:
+      attributes:
+        id: EVIC_1_ENABLE_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_HANDLER_LOCK:
+      attributes:
+        id: EVIC_1_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_PRIORITY_GENERATE:
+      attributes:
+        id: EVIC_1_PRIORITY_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_PRIORITY_LOCK:
+      attributes:
+        id: EVIC_1_PRIORITY_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_SUBPRIORITY_GENERATE:
+      attributes:
+        id: EVIC_1_SUBPRIORITY_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_SUBPRIORITY_LOCK:
+      attributes:
+        id: EVIC_1_SUBPRIORITY_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_ENABLE_GENERATE:
+      attributes:
+        id: EVIC_4_ENABLE_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_ENABLE_LOCK:
+      attributes:
+        id: EVIC_4_ENABLE_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_HANDLER_LOCK:
+      attributes:
+        id: EVIC_4_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_PRIORITY_GENERATE:
+      attributes:
+        id: EVIC_4_PRIORITY_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_PRIORITY_LOCK:
+      attributes:
+        id: EVIC_4_PRIORITY_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_SUBPRIORITY_GENERATE:
+      attributes:
+        id: EVIC_4_SUBPRIORITY_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_SUBPRIORITY_LOCK:
+      attributes:
+        id: EVIC_4_SUBPRIORITY_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_PRIORITY_1ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_1ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SRS
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_2ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_2ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SRS
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_3ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_3ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SRS
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_4ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_4ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SRS
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_5ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_5ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SRS
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_6ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_6ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SRS
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_7ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_7ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SRS
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_SRS_ENABLE:
+      attributes:
+        id: EVIC_SRS_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GLCD_INTERRUPT_ENABLE:
+      attributes:
+        id: GLCD_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_glcd
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GLCD_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: GLCD_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GLCD_INTERRUPT_HANDLER:
+      attributes:
+        id: GLCD_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_glcd
+            value: GLCD_Interrupt_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    GLCD_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: GLCD_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_glcd
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    I2C2_BUS_INTERRUPT_ENABLE:
+      attributes:
+        id: I2C2_BUS_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    I2C2_BUS_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: I2C2_BUS_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    I2C2_BUS_INTERRUPT_HANDLER:
+      attributes:
+        id: I2C2_BUS_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: I2C2_BUS_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    I2C2_BUS_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: I2C2_BUS_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    I2C2_CLOCK_ENABLE:
+      attributes:
+        id: I2C2_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    I2C2_CLOCK_FREQUENCY:
+      attributes:
+        id: I2C2_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '100000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2C2_MASTER_INTERRUPT_ENABLE:
+      attributes:
+        id: I2C2_MASTER_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    I2C2_MASTER_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: I2C2_MASTER_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    I2C2_MASTER_INTERRUPT_HANDLER:
+      attributes:
+        id: I2C2_MASTER_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: I2C2_MASTER_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    I2C2_MASTER_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: I2C2_MASTER_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    I2C2_SLAVE_INTERRUPT_ENABLE:
+      attributes:
+        id: I2C2_SLAVE_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    I2C2_SLAVE_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: I2C2_SLAVE_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    I2C2_SLAVE_INTERRUPT_HANDLER:
+      attributes:
+        id: I2C2_SLAVE_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: I2C2_SLAVE_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    I2C2_SLAVE_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: I2C2_SLAVE_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: i2c2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    KEIL_STACK_HEAP_SIZE:
+      attributes:
+        id: KEIL_STACK_HEAP_SIZE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1200'
+          type: Dynamic
+        type: Values
+      type: String
+    PMD5_REG_VALUE:
+      attributes:
+        id: PMD5_REG_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '807223103'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PMD6_REG_VALUE:
+      attributes:
+        id: PMD6_REG_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '278986752'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PMD7_REG_VALUE:
+      attributes:
+        id: PMD7_REG_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '5242880'
+          type: Dynamic
+        type: Values
+      type: Hex
+    REFO5TRIM_VALUE:
+      attributes:
+        id: REFO5TRIM_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    REFOCON5_VALUE:
+      attributes:
+        id: REFOCON5_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x200'
+          type: Dynamic
+        type: Values
+      type: String
+    SYS_PORT_B_LAT:
+      attributes:
+        id: SYS_PORT_B_LAT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_B_ODC:
+      attributes:
+        id: SYS_PORT_B_ODC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_B_TRIS:
+      attributes:
+        id: SYS_PORT_B_TRIS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_C_LAT:
+      attributes:
+        id: SYS_PORT_C_LAT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '18'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_C_ODC:
+      attributes:
+        id: SYS_PORT_C_ODC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '18'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_C_TRIS:
+      attributes:
+        id: SYS_PORT_C_TRIS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '18'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_D_LAT:
+      attributes:
+        id: SYS_PORT_D_LAT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_D_TRIS:
+      attributes:
+        id: SYS_PORT_D_TRIS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_H_LAT:
+      attributes:
+        id: SYS_PORT_H_LAT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1024'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_H_TRIS:
+      attributes:
+        id: SYS_PORT_H_TRIS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1024'
+          type: Dynamic
+        type: Values
+      type: Hex
+    clkSvcMode:
+      attributes:
+        id: clkSvcMode
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '688'
+        canvasWidth: '532'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData

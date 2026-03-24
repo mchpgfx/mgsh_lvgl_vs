@@ -1,0 +1,81 @@
+{
+    "version": "1.9",
+    "configurations": [
+        {
+            "name": "default",
+            "id": "conf1",
+            "device": "PIC32MZ2064DAR176",
+            "imagePath": "./out/mgsh_pic32mzda_lvgl/default.elf",
+            "tool": "Curiosity/Starter Kits (PKOB4)",
+            "packs": [
+                {
+                    "name": "PIC32MZ-DA_DFP",
+                    "vendor": "Microchip",
+                    "version": "1.6.239"
+                }
+            ],
+            "fileSet": "default",
+            "toolchain": "default-XC32"
+        }
+    ],
+    "propertyGroups": [
+        {
+            "name": "default-XC32",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc32@5.00",
+            "properties": {
+                "compiler.isolate-each-function": true,
+                "compiler.optimization-level": "-O1",
+                "compiler.place-data-into-section": true,
+                "linker.heap-size": "0",
+                "linker.remove-unused-sections": true,
+                "compiler++.isolate-each-function": true,
+                "compiler++.optimization-level": "-O1",
+                "compiler++.extra-include-directories": [
+                    "curiosity_wvga/mcc",
+                    "curiosity_wvga/src",
+                    "curiosity_wvga/src/config/default"
+                ],
+                "linker.no-device-startup-code": "true",
+                "compiler.extra-include-directories": [
+                    "curiosity_wvga/mcc",
+                    "curiosity_wvga/src",
+                    "curiosity_wvga/src/config/default"
+                ],
+                "compiler++.generate-micro-compressed-code": "false",
+                "compiler.generate-micro-compressed-code": "false"
+            }
+        }
+    ],
+    "fileSets": [
+        {
+            "name": "default",
+            "files": [
+                {
+                    "include": "**/*",
+                    "exclude": [
+                        "**/(_build|out|cmake|.vscode)/**/*",
+                        "curiosity_wvga/src/app.c",
+                        "curiosity_wvga/src/app.h"
+                    ]
+                },
+                "curiosity_wvga/src/config/default/device.h",
+                "curiosity_wvga/src/config/default/toolchain_specifics.h",
+                "curiosity_wvga/src/main.c",
+                "curiosity_wvga/src/config/default/definitions.h",
+                "curiosity_wvga/src/config/default/initialization.c",
+                "curiosity_wvga/src/config/default/interrupts.c",
+                "curiosity_wvga/src/config/default/interrupts.h",
+                "curiosity_wvga/src/config/default/exceptions.c",
+                "curiosity_wvga/src/config/default/p32MZ2064DAR176.ld",
+                "curiosity_wvga/src/config/default/stdio/xc32_monitor.c",
+                "curiosity_wvga/src/config/default/peripheral/clk/plib_clk.h",
+                "curiosity_wvga/src/config/default/peripheral/clk/plib_clk.c",
+                "curiosity_wvga/src/config/default/peripheral/gpio/plib_gpio.h",
+                "curiosity_wvga/src/config/default/peripheral/gpio/plib_gpio.c",
+                "curiosity_wvga/src/config/default/peripheral/evic/plib_evic.c",
+                "curiosity_wvga/src/config/default/peripheral/evic/plib_evic.h"
+            ]
+        }
+    ]
+}
