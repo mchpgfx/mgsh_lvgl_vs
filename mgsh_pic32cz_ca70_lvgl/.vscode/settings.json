@@ -1,0 +1,4 @@
+{
+    "mplab.clangd.compileCommandsDir": "${workspaceFolder}\\_build\\mgsh_pic32cz_ca70_lvgl\\default",
+    "mplab.clangd.path": "c:\\Program Files\\Microchip\\xc32\\v5.00\\bin\\xc32-clangd.exe"
+}

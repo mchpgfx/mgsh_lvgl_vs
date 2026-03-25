@@ -1,0 +1,317 @@
+configVersion: 1.0.0
+componentName: smc
+coreVersion: 5.8.4
+device: PIC32CZ2051CA70144
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: smc
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.25.1
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: smc_cs0
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: le_gfx_driver_lcc
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: SMC_CS
+            type: String
+          type: Attributes
+        type: DirectCapability
+      type: Attachments
+    type: smc
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: smc
+          x: '59'
+          y: '493'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    SMC_BAT_CS0:
+      attributes:
+        id: SMC_BAT_CS0
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_BAT_CS1:
+      attributes:
+        id: SMC_BAT_CS1
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_BAT_CS2:
+      attributes:
+        id: SMC_BAT_CS2
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_BAT_CS3:
+      attributes:
+        id: SMC_BAT_CS3
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_CHIP_SELECT0:
+      attributes:
+        id: SMC_CHIP_SELECT0
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_lcc
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SMC_DATA_BUS_CS0:
+      attributes:
+        id: SMC_DATA_BUS_CS0
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_DATA_BUS_CS1:
+      attributes:
+        id: SMC_DATA_BUS_CS1
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_DATA_BUS_CS2:
+      attributes:
+        id: SMC_DATA_BUS_CS2
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_DATA_BUS_CS3:
+      attributes:
+        id: SMC_DATA_BUS_CS3
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_MEM_SCRAMBLING_CS0:
+      attributes:
+        id: SMC_MEM_SCRAMBLING_CS0
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_lcc
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SMC_NCS_WR_PULSE_CS0:
+      attributes:
+        id: SMC_NCS_WR_PULSE_CS0
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_lcc
+            value: '6'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SMC_NCS_WR_SETUP_CS0:
+      attributes:
+        id: SMC_NCS_WR_SETUP_CS0
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_lcc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SMC_NWAIT_MODE_CS0:
+      attributes:
+        id: SMC_NWAIT_MODE_CS0
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_NWAIT_MODE_CS1:
+      attributes:
+        id: SMC_NWAIT_MODE_CS1
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_NWAIT_MODE_CS2:
+      attributes:
+        id: SMC_NWAIT_MODE_CS2
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_NWAIT_MODE_CS3:
+      attributes:
+        id: SMC_NWAIT_MODE_CS3
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_NWE_CYCLE_CS0:
+      attributes:
+        id: SMC_NWE_CYCLE_CS0
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_lcc
+            value: '6'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SMC_NWE_PULSE_CS0:
+      attributes:
+        id: SMC_NWE_PULSE_CS0
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_lcc
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SMC_NWE_SETUP_CS0:
+      attributes:
+        id: SMC_NWE_SETUP_CS0
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_lcc
+            value: '5'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SMC_PS_CS0:
+      attributes:
+        id: SMC_PS_CS0
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_PS_CS1:
+      attributes:
+        id: SMC_PS_CS1
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_PS_CS2:
+      attributes:
+        id: SMC_PS_CS2
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_PS_CS3:
+      attributes:
+        id: SMC_PS_CS3
+      children:
+      - children:
+        - attributes:
+            id: smc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SMC_WRITE_ENABLE_MODE_CS0:
+      attributes:
+        id: SMC_WRITE_ENABLE_MODE_CS0
+      children:
+      - children:
+        - attributes:
+            id: le_gfx_driver_lcc
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+  userData: {}

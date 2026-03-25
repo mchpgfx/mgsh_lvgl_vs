@@ -1,0 +1,163 @@
+configVersion: 1.0.0
+componentName: tc2
+coreVersion: 5.8.4
+device: PIC32CZ2051CA70144
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: tc2
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.25.1
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: TC2_TMR
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: le_gfx_driver_lcc
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: TMR
+            type: String
+          type: Attributes
+        type: DirectCapability
+      type: Attachments
+    type: tc2
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: tc2
+          x: '303'
+          y: '569'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    ENCODER_POS_GET_API:
+      attributes:
+        id: ENCODER_POS_GET_API
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: TC2_QuadraturePositionGet
+          type: Dynamic
+        type: Values
+      type: String
+    ENCODER_POS_SET_API:
+      attributes:
+        id: ENCODER_POS_SET_API
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    ENCODER_SPEED_GET_API:
+      attributes:
+        id: ENCODER_SPEED_GET_API
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    ENCODER_SPEED_SET_API:
+      attributes:
+        id: ENCODER_SPEED_SET_API
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    ENCODER_START_API:
+      attributes:
+        id: ENCODER_START_API
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: TC2_QuadratureStart
+          type: Dynamic
+        type: Values
+      type: String
+    ENCODER_STOP_API:
+      attributes:
+        id: ENCODER_STOP_API
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: TC2_QuadratureStop
+          type: Dynamic
+        type: Values
+      type: String
+    TC1_CLOCK_FREQ:
+      attributes:
+        id: TC1_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: '150000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TC1_ENABLE:
+      attributes:
+        id: TC1_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm4301b
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC1_OPERATING_MODE:
+      attributes:
+        id: TC1_OPERATING_MODE
+      children:
+      - children:
+        - attributes:
+            id: legato_gfx_pda_tm4301b
+            value: COMPARE
+          type: Dynamic
+        type: Values
+      type: Combo
+    TC1_TIMER_PERIOD_COUNT:
+      attributes:
+        id: TC1_TIMER_PERIOD_COUNT
+      children:
+      - children:
+        - attributes:
+            id: tc2
+            value: '60000'
+          type: Dynamic
+        type: Values
+      type: Long
+  userData: {}
