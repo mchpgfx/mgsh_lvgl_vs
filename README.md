@@ -10,12 +10,12 @@ This repository provides ready-to-use LVGL v9.5.0 graphics demo projects for var
 
 | Project | MCU/MPU | Core | Display | Board |
 |---------|---------|------|---------|-------|
-| [mgsh_sama7d65_lvgl](mgsh_sama7d65_lvgl/) | SAMA7D65 | Cortex-A7 | 800x480 WVGA | [Curiosity (EV24P60A)](https://www.microchip.com/en-us/development-tool/EV24P60A) |
+| [mgsh_sama7d65_lvgl](mgsh_sama7d65_lvgl/) | SAMA7D65 | Cortex-A7 | 800x480 WVGA | [Curiosity (EV63J76A)](https://www.microchip.com/en-us/development-tool/ev63j76a) |
 | [mgsh_sam9x75_lvgl](mgsh_sam9x75_lvgl/) | SAM9X75 | ARM926EJ-S | 800x480 WVGA | [Curiosity (EV31H43A)](https://www.microchip.com/en-us/development-tool/EV31H43A) |
 | [mgsh_sam9x60_lvgl](mgsh_sam9x60_lvgl/) | SAM9X60 | ARM926EJ-S | 800x480 WVGA | [Curiosity (EV40E67A)](https://www.microchip.com/en-us/development-tool/ev40e67a) |
 | [mgsh_pic32mzda_lvgl](mgsh_pic32mzda_lvgl/) | PIC32MZ DA | MIPS32 M-Class | 800x480 WVGA | [Curiosity (EV87D54A)](https://www.microchip.com/en-us/development-tool/EV87D54A) |
 | [mgsh_pic32cz_ca70_lvgl](mgsh_pic32cz_ca70_lvgl/) | PIC32CZ CA70 | Cortex-M7 | 480x272 WQVGA | [Curiosity Ultra (EV56T44A)](https://www.microchipdirect.com/product/EV56T44A) |
-| [mgsh_pic32ck_sg_gc_lvgl](mgsh_pic32ck_sg_gc_lvgl/) | PIC32CK GC01 | Cortex-M33 | 480x272 WQVGA | [Curiosity Ultra (EV71N66A)](https://www.microchip.com/en-us/development-tool/EV71N66A) |
+| [mgsh_pic32ck_sg_gc_lvgl](mgsh_pic32ck_sg_gc_lvgl/) | PIC32CK GC01 | Cortex-M33 | 480x272 WQVGA | [Curiosity Ultra (EV44P93A)](https://www.microchip.com/en-us/development-tool/ev44p93a) |
 
 ## Common Features
 
@@ -136,7 +136,7 @@ This repository contains code from:
 - **LVGL LLC** - LVGL graphics library (MIT License)
 
 ## Resources
-
+- [Developer Help](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/mgs/mgs-lvgl/mplab-harmony/)
 - [LVGL Documentation](https://docs.lvgl.io/)
 - [MPLAB Harmony v3](https://www.microchip.com/en-us/tools-resources/configure/mplab-harmony)
 - [Microchip Graphics Suite](https://www.microchip.com/en-us/tools-resources/develop/graphics)
