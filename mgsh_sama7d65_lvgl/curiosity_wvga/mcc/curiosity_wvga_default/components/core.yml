@@ -988,16 +988,6 @@ data:
           type: Dynamic
         type: Values
       type: String
-    XC32_USR_STACK_SIZE:
-      attributes:
-        id: XC32_USR_STACK_SIZE
-      children:
-      - children:
-        - attributes:
-            value: '32768'
-          type: User
-        type: Values
-      type: Integer
     XC32_SVC_STACK_SIZE:
       attributes:
         id: XC32_SVC_STACK_SIZE
@@ -1008,13 +998,13 @@ data:
           type: User
         type: Values
       type: Integer
-    XC32_HEAP_SIZE:
+    XC32_USR_STACK_SIZE:
       attributes:
-        id: XC32_HEAP_SIZE
+        id: XC32_USR_STACK_SIZE
       children:
       - children:
         - attributes:
-            value: '524288'
+            value: '32768'
           type: User
         type: Values
       type: Integer

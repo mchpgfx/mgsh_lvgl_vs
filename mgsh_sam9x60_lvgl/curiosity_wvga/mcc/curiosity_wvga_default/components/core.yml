@@ -2789,6 +2789,16 @@ data:
           type: Dynamic
         type: Values
       type: KeyValueSet
+    COMPONENT_PACKAGE:
+      attributes:
+        id: COMPONENT_PACKAGE
+      children:
+      - children:
+        - attributes:
+            value: BGA233
+          type: User
+        type: Values
+      type: Combo
     XC32_USR_STACK_SIZE:
       attributes:
         id: XC32_USR_STACK_SIZE
@@ -2809,26 +2819,6 @@ data:
           type: User
         type: Values
       type: Integer
-    XC32_HEAP_SIZE:
-      attributes:
-        id: XC32_HEAP_SIZE
-      children:
-      - children:
-        - attributes:
-            value: '32768'
-          type: User
-        type: Values
-      type: Integer
-    COMPONENT_PACKAGE:
-      attributes:
-        id: COMPONENT_PACKAGE
-      children:
-      - children:
-        - attributes:
-            value: BGA233
-          type: User
-        type: Values
-      type: Combo
   userData:
     children:
     - attributes:

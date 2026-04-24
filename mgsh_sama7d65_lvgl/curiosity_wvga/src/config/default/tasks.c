@@ -91,7 +91,7 @@ void SYS_Tasks ( void )
 
 
     /* Maintain the application's state machine. */
-    /* Call Application task APP_LVGL. */
+        /* Call Application task APP_LVGL. */
     APP_LVGL_Tasks();
 
 
